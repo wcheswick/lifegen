@@ -9,3 +9,6 @@ lifegen:	lifegen.c
 
 test::	all
 	time lifegen
+
+clean::
+	rm -f lifegen
